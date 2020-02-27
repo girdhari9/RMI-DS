@@ -1,0 +1,158 @@
+add_graph e 4
+add_edge e 2 1 1000
+add_edge e 3 4 299
+add_edge e 2 4 200
+add_edge e 2 4 100
+add_edge e 3 2 300
+add_edge e 3 2 6
+get_mst e
+
+ans=1106
+
+add_graph d 4
+add_edge d 1 2 1
+add_edge d 3 2 150
+add_edge d 4 3 99
+add_edge d 1 4 100
+add_edge d 3 1 200
+get_mst d
+
+200
+
+add_graph b 5
+add_edge b 1 2 20
+add_edge b 1 2 20
+add_edge b 1 3 50
+add_edge b 1 4 70
+add_edge b 1 5 90
+add_edge b 2 3 30
+add_edge b 3 4 40
+add_edge b 4 5 60
+get_mst b 
+
+150
+
+add_graph a 100
+add_edge a 29 1 91
+add_edge a 45 2 87
+add_edge a 33 3 38
+add_edge a 56 4 45
+add_edge a 98 5 16
+add_edge a 29 6 100
+add_edge a 8 7 25
+add_edge a 99 8 88
+add_edge a 72 9 94
+add_edge a 57 10 34
+add_edge a 12 11 23
+add_edge a 98 12 31
+add_edge a 23 13 95
+add_edge a 11 14 95
+add_edge a 3 15 70
+add_edge a 15 16 82
+add_edge a 1 17 82
+add_edge a 100 18 46
+add_edge a 79 19 63
+add_edge a 12 20 47
+add_edge a 62 21 32
+add_edge a 45 22 29
+add_edge a 99 23 47
+add_edge a 15 24 30
+add_edge a 99 25 33
+add_edge a 24 26 79
+add_edge a 77 27 57
+add_edge a 29 28 80
+add_edge a 81 29 95
+add_edge a 12 30 51
+add_edge a 60 31 86
+add_edge a 100 32 35
+add_edge a 49 34 74
+add_edge a 78 35 83
+add_edge a 5 36 50
+add_edge a 19 37 52
+add_edge a 67 38 33
+add_edge a 29 39 69
+add_edge a 45 40 69
+add_edge a 99 41 58
+add_edge a 38 42 27
+add_edge a 47 43 13
+add_edge a 18 44 41
+add_edge a 48 45 23
+add_edge a 42 46 49
+add_edge a 99 47 64
+add_edge a 33 48 30
+add_edge a 100 49 41
+add_edge a 67 50 48
+add_edge a 7 51 25
+add_edge a 5 52 93
+add_edge a 76 53 65
+add_edge a 81 54 76
+add_edge a 82 55 10
+add_edge a 81 56 61
+add_edge a 100 57 10
+add_edge a 67 58 35
+add_edge a 85 59 51
+add_edge a 40 60 73
+add_edge a 72 61 31
+add_edge a 83 62 32
+add_edge a 5 63 83
+add_edge a 32 64 51
+add_edge a 15 65 90
+add_edge a 54 66 95
+add_edge a 22 67 34
+add_edge a 30 68 85
+add_edge a 68 69 64
+add_edge a 38 70 12
+add_edge a 8 71 66
+add_edge a 3 72 79
+add_edge a 81 73 37
+add_edge a 56 74 17
+add_edge a 50 75 41
+add_edge a 30 76 21
+add_edge a 28 77 71
+add_edge a 12 78 83
+add_edge a 35 79 62
+add_edge a 42 80 33
+add_edge a 72 81 71
+add_edge a 90 82 29
+add_edge a 78 83 39
+add_edge a 36 84 98
+add_edge a 22 85 77
+add_edge a 49 86 37
+add_edge a 83 87 35
+add_edge a 98 88 37
+add_edge a 98 89 56
+add_edge a 72 90 74
+add_edge a 99 91 27
+add_edge a 91 92 69
+add_edge a 33 93 32
+add_edge a 1 94 52
+add_edge a 67 95 74
+add_edge a 81 96 16
+add_edge a 33 97 39
+add_edge a 33 98 73
+add_edge a 48 99 39
+add_edge a 38 100 75
+add_edge a 1 58 25
+get_mst a
+
+5295
+
+add_graph g1 4
+add_edge g1 1 2 1
+add_edge g1 3 4 1
+get_mst g1
+
+-1
+
+
+add_graph graph1 4
+get_mst graph1
+add_edge graph1 1 2 10
+add_edge graph1 2 3 15
+add_edge graph1 1 3 5
+add_edge graph1 4 2 2
+add_edge graph1 4 3 40
+get_mst graph1
+
+-1
+17
